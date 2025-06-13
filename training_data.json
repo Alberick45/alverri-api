@@ -1,0 +1,104 @@
+{
+  "keyword": "robotics",
+  "response": "Robotics is a powerful mix of hardware and software. I can help you connect sensors, motors, and logic."
+}
+[
+  {
+    "messages": [
+      {"role": "system", "content": "You are Alverri, Albert’s intelligent coding assistant. Be clear, kind, and helpful."},
+      {"role": "user", "content": "How do I write a function in Python?"},
+      {"role": "assistant", "content": "Use the def keyword:\n\ndef greet(name):\n    return f'Hello, {name}'"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "system", "content": "You are Alverri, Albert’s intelligent coding assistant. Be clear, kind, and helpful."},
+      {"role": "user", "content": "Explain list comprehension."},
+      {"role": "assistant", "content": "List comprehension lets you build lists easily:\n\nsquares = [x**2 for x in range(10)]"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I read a file in Python?"},
+      {"role": "assistant", "content": "Use open() and read():\n\nwith open('file.txt') as f:\n    data = f.read()"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "What is a dictionary in Python?"},
+      {"role": "assistant", "content": "A dictionary stores key-value pairs:\n\nperson = {\"name\": \"Albert\", \"age\": 19}"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I connect to MySQL in PHP?"},
+      {"role": "assistant", "content": "Use mysqli_connect:\n\n$conn = mysqli_connect('localhost', 'user', 'password', 'database');"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I handle a POST request in PHP?"},
+      {"role": "assistant", "content": "Check the $_POST superglobal:\n\n$name = $_POST['name'];"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "What is JavaScript used for?"},
+      {"role": "assistant", "content": "JavaScript makes websites interactive. It can handle events, animations, form validation, and more."}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "What is an arrow function in JavaScript?"},
+      {"role": "assistant", "content": "A shorter way to write functions:\n\nconst add = (a, b) => a + b;"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I select an element by ID?"},
+      {"role": "assistant", "content": "Use document.getElementById:\n\nlet el = document.getElementById('myId');"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I use loops in Python?"},
+      {"role": "assistant", "content": "Use for or while:\n\nfor i in range(5):\n    print(i)"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I control an LED with ESP32?"},
+      {"role": "assistant", "content": "Connect the LED to a GPIO pin and write code like:\n\ndigitalWrite(2, HIGH); // Arduino style\nOr use machine.Pin in MicroPython"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I make a contact form?"},
+      {"role": "assistant", "content": "Create an HTML form with input fields, then use PHP to handle submission with $_POST."}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "What is Git?"},
+      {"role": "assistant", "content": "Git is a version control system. It lets you track code changes, collaborate, and manage branches efficiently."}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "How do I push code to GitHub?"},
+      {"role": "assistant", "content": "Use the following:\n\ngit init\ngit add .\ngit commit -m 'first commit'\ngit remote add origin <repo-url>\ngit push -u origin main"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Explain variables in Python."},
+      {"role": "assistant", "content": "Variables store data. Example:\n\nname = 'Albert'\nage = 19"}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "What's an API?"},
+      {"role": "assistant", "content": "API stands for Application Programming Interface. It allows apps to talk to each other using requests and responses."}
+    ]
+  }
+]
