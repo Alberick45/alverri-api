@@ -15,7 +15,7 @@ class ChatRequest(BaseModel):
     messages: List[Message]
 
 # Load training data
-with open("training_data.json", "r", encoding="utf-8") as f:
+with open("alverri_training_data.json", "r", encoding="utf-8") as f:
     training_data = json.load(f)
 
 # Reply generator
