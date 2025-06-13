@@ -1,0 +1,1602 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I create a variable in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use this syntax:\n\nx = 10"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I install a Python package?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use pip:\n\npip install package-name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a class in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "A class defines a blueprint for objects:\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I make an HTTP request in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('https://api.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use Bootstrap in my website?"
+      },
+      {
+        "role": "assistant",
+        "content": "Include the Bootstrap CDN in your HTML head:\n\n<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is a for loop in Python?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use for loops like this:\n\nfor i in range(5):\n    print(i)"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I host a website on GitHub?"
+      },
+      {
+        "role": "assistant",
+        "content": "Push your project to a GitHub repo, then enable GitHub Pages in repo settings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between let and var in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "`let` is block-scoped, `var` is function-scoped. Use `let` to avoid scope bugs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I use conditions in PHP?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use if/else:\n\nif ($a > $b) {\n    echo 'A is bigger';\n} else {\n    echo 'B is bigger';\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Alverri, Albert\u2019s intelligent coding assistant. Be clear, kind, and helpful."
+      },
+      {
+        "role": "user",
+        "content": "How do I send data with POST in JavaScript?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use fetch:\n\nfetch('/api', {\n  method: 'POST',\n  body: JSON.stringify(data),\n  headers: {'Content-Type': 'application/json'}\n});"
+      }
+    ]
+  }
+]
