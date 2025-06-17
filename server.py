@@ -3,7 +3,11 @@ from pydantic import BaseModel
 from typing import List
 import json
 import re
+import os
 from fastapi.middleware.cors import CORSMiddleware
+
+from agent_core import alverri
+from base_agent import Runner
 
 app = FastAPI()
 
@@ -16,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Schemas
+# Pydantic models
 class Message(BaseModel):
     role: str
     content: str
@@ -28,28 +32,31 @@ class TrainMessage(BaseModel):
     user: str
     assistant: str
 
-# Load and transform training data
+# In-memory Q&A pairs loaded from file
 qa_pairs = []
 
-with open("alverri_training_data.json", "r", encoding="utf-8") as f:
-    training_data = json.load(f)
-    for item in training_data:
-        user_msg = next((m for m in item["messages"] if m["role"] == "user"), None)
-        assistant_msg = next((m for m in item["messages"] if m["role"] == "assistant"), None)
-        if user_msg and assistant_msg:
-            qa_pairs.append({
-                "keyword": user_msg["content"].lower().strip(),
-                "response": assistant_msg["content"]
-            })
+try:
+    with open("alverri_training_data.json", "r", encoding="utf-8") as f:
+        training_data = json.load(f)
+        for item in training_data:
+            user_msg = next((m for m in item["messages"] if m["role"] == "user"), None)
+            assistant_msg = next((m for m in item["messages"] if m["role"] == "assistant"), None)
+            if user_msg and assistant_msg:
+                qa_pairs.append({
+                    "keyword": user_msg["content"].lower().strip(),
+                    "response": assistant_msg["content"]
+                })
+except FileNotFoundError:
+    print("📁 No training data found. Starting fresh.")
+    training_data = []
 
-# Smart reply generator with training feature
-def generate_alverri_reply(messages: List[Message]) -> str:
+# Main response generator
+async def generate_alverri_reply(messages: List[Message]) -> str:
     user_input = messages[-1].content.strip()
 
-    # Training prompt
+    # Pattern to learn new pairs
     if user_input.lower().startswith("alverri, learn this:"):
         try:
-            # Format: 'Alverri, learn this: 'question' → 'answer''
             match = re.match(r"Alverri, learn this:\s*'(.*?)'\s*→\s*'(.*?)'", user_input, re.IGNORECASE)
             if match:
                 prompt, completion = match.groups()
@@ -61,36 +68,42 @@ def generate_alverri_reply(messages: List[Message]) -> str:
                     ]
                 }
 
-                # Load and append
-                with open("alverri_training_data.json", "r", encoding="utf-8") as f:
-                    data = json.load(f)
+                try:
+                    with open("alverri_training_data.json", "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                except FileNotFoundError:
+                    data = []
+
                 data.append(new_entry)
 
                 with open("alverri_training_data.json", "w", encoding="utf-8") as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
 
-                # Add to in-memory pairs
                 qa_pairs.append({
                     "keyword": prompt.lower().strip(),
                     "response": completion
                 })
 
                 return f"✅ Learned: ‘{prompt}’ → ‘{completion}’"
-            return "❌ Please use the format: Alverri, learn this: 'question' → 'answer'"
+            else:
+                return "❌ Format error. Use: Alverri, learn this: 'question' → 'answer'"
         except Exception as e:
-            return f"⚠️ Error while learning: {str(e)}"
+            return f"⚠️ Learning failed: {str(e)}"
 
-    # Normal chat reply
+    # Check memory
     for qa in qa_pairs:
         if qa["keyword"] == user_input.lower():
             return qa["response"]
 
-    return f"Alverri here 🌟 — You said: '{user_input}'. I’m still learning this topic. Want to teach me?"
+    # Else, fallback to OpenAI agent
+    raw_messages = [{"role": m.role, "content": m.content} for m in messages]
+    result = await Runner.run(alverri, raw_messages)
+    return result.final_output
 
 # Chat endpoint
 @app.post("/api/chat")
 async def chat(req: ChatRequest):
-    reply = generate_alverri_reply(req.messages)
+    reply = await generate_alverri_reply(req.messages)
     return {
         "choices": [{
             "message": {
@@ -110,16 +123,17 @@ async def train(new_data: TrainMessage):
         ]
     }
 
-    # Load and update training data
-    with open("alverri_training_data.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with open("alverri_training_data.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        data = []
 
     data.append(new_pair)
 
     with open("alverri_training_data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    # Add to memory
     qa_pairs.append({
         "keyword": new_data.user.lower().strip(),
         "response": new_data.assistant
